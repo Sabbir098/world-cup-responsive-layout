@@ -134,7 +134,6 @@ h3{
     width: 130px;
     text-align: center;
     font-size: 16px;
-    /* margin-top: 20px; */
 }
 .icons-area{
     display: flex;
@@ -180,7 +179,11 @@ h3{
 
 /* Media Queries  */
 
+/* responsive for mobile  */
+
 @media only screen and (max-width: 576px){
+
+    /* top-banner media query styles  */
         .top-banner{
             display: flex;
             flex-direction: column;
@@ -191,10 +194,12 @@ h3{
         .top-banner-info{
             text-align: center;
             margin-top: 30px;
+            width: 100%;
         }
         .top-heading{
             font-size: 22px;
             line-height: 33px;
+            
         
         }
         /* .content1::before{
@@ -222,6 +227,7 @@ h3{
             justify-content: center;
         }
 
+            /* Middle area media query styles  */
         .middle-area{
             display: flex;
             flex-direction: column;
@@ -247,6 +253,9 @@ h3{
             width: 310px;
             height: 390px;
         }
+
+        /* footer section  */
+
         .footer{
             height: 415px;
             margin-top: 100px;
@@ -269,7 +278,13 @@ h3{
         
         }
 }
-@media only screen and (min-width: 578px) and (max-width: 1023px) {
+
+/* Media Query responsive for tab  */
+
+@media only screen and (min-width: 577px) and (max-width: 1023px) {
+
+    /* top banner section  */
+
     .top-banner{
         width: 940px;
         margin-top: 20px;
@@ -292,6 +307,9 @@ h3{
     .btn-area{
         margin-top: 40px;
     }
+
+    /* middle area section  */
+
     .middle-area{
         display: flex;
         flex-direction: column;
@@ -323,6 +341,7 @@ h3{
         height: 480px;
     }
 
+        /* footer section  */
     .footer{
         width: 955px;
     }
